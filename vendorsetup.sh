@@ -1,1 +1,1 @@
-add_lunch_combo cm_r7sf-eng
+add_lunch_combo omni_r7sf-eng

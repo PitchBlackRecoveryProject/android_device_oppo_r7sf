@@ -10,7 +10,7 @@ jobs:
       VERSION: '2.9.0'
       VENDOR: 'oppo'
       CODENAME: 'r7sf'
-      BUILD_LUNCH: 'cm_r7sf-eng'
+      BUILD_LUNCH: 'omni_r7sf-eng'
     working_directory: /home/builder/pitchblack
     steps:
       - checkout

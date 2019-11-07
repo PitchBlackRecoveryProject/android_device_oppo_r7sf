@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/cm_r7sf.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_r7sf.mk

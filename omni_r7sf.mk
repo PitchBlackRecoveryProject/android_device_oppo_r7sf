@@ -20,7 +20,7 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := cm_r7sf
+PRODUCT_NAME := omni_r7sf
 PRODUCT_DEVICE := r7sf
 PRODUCT_BRAND := Oppo
 PRODUCT_MANUFACTURER := Oppo
