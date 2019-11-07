@@ -22,6 +22,8 @@ jobs:
             git config --global user.name $GitHubName
             git config --global color.ui true
             wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/build.sh
+            git clone https://github.com/CyanogenMod/android_device_qcom_common device/qcom/common -b cm-13.0
+            git clone https://github.com/omnirom/android_external_f2fs-tools external/f2fs-tools -b android-7.1
             source build.sh ${SFUserName} ${SFPassword} ${GITHUB_TOKEN}
 workflows:
   version: 2
