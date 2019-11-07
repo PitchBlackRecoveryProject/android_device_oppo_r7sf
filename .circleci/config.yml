@@ -6,7 +6,7 @@ jobs:
       - image: fr3akyphantom/pitchblack-builder:latest
     environment:
       MANIFEST_BRANCH: 'twrp-6.0'
-      PBRP_BRANCH: 'android-9.0'
+      PBRP_BRANCH: 'mtk'
       VERSION: '2.9.0'
       VENDOR: 'oppo'
       CODENAME: 'r7sf'
