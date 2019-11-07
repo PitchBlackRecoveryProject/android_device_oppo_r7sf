@@ -11,6 +11,7 @@ jobs:
       VENDOR: 'oppo'
       CODENAME: 'r7sf'
       BUILD_LUNCH: 'omni_r7sf-eng'
+      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack
     steps:
       - checkout
